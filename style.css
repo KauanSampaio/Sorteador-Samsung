@@ -1,0 +1,32 @@
+body {
+    font-family: "Sans-serif";
+}
+
+#mainContent {
+    margin-top: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px 20px;
+}
+
+#sortForm {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+textarea#nameList {
+    width: 500px;
+    height: 360px;
+    resize: none;
+}
+
+textarea#nameList:focus {
+    
+}
