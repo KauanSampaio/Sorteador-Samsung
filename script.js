@@ -25,7 +25,7 @@ button.addEventListener("click", () => {
     // Populando o cabeçalho da tabela
     for(let i = 1; i<=numTeams; i++) {
         let headerRow = document.createElement("th");
-        headerRow.style.border = "solid";
+        headerRow.style.border = "2px solid #3446b3";
         headerRow.appendChild(document.createTextNode(`Time ${i}`));
         tableHeader.appendChild(headerRow);
     }
@@ -67,7 +67,10 @@ button.addEventListener("click", () => {
     divTable.appendChild(newTable);
 
     // Ajustando a borda da tabela
-    newTable.style.border = "solid";
+    newTable.style.border = "2px solid #3446b3";
 
-    // document.querySelector("#sortForm").innerHTML = "";
+    document.querySelector("#sortForm").innerHTML = "";
+    document.querySelector("#drawAgain").innerHTML = `
+        <button type="button" id="drawAgainButton" onClick="window.location.reload()">Sortear Novamente</button>
+    `;
 });

@@ -1,15 +1,17 @@
 body {
     font-family: "Sans-serif";
+    background-color: #fff;
+    height: 100%;
 }
 
 #mainContent {
-    margin-top: 200px;
+    margin-top: 2%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 20px 20px;
+    gap: 20px;
 }
 
 #sortForm {
@@ -22,11 +24,83 @@ body {
 }
 
 textarea#nameList {
-    width: 500px;
-    height: 360px;
+    width: 750px;
+    height: 500px;
     resize: none;
+    border: 2px solid #3446b3;
+    border-radius: 20pt;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
 }
 
-textarea#nameList:focus {
-    
+input#numTeams {
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #3446b3;
+    outline: none;
+}
+
+button#sortButton {
+    width: 150px;
+    height: 50px;
+    background-color: #3446b3;
+    color: #fff;
+    border: 2px solid #3446b3;
+    border-radius: 20pt;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button#sortButton:hover {
+    background-color: #fff;
+    border-color: #3446b3;
+    color: #3446b3;
+}
+
+#teamsTable {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+table {
+    margin-top: 15%;
+    width: 1200px;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+}
+
+table th {
+    width: 1300px;
+}
+
+#drawAgainButton {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: #3446b3;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #3446b3;
+    border-radius: 50pt;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#drawAgainButton:hover {
+    background-color: #fff;
+    border-color: #3446b3;
+    color: #3446b3;
 }
