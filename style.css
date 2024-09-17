@@ -74,14 +74,14 @@ button#sortButton:hover {
 
 table {
     margin-top: 15%;
-    width: 1200px;
+    width: 1500px;
     border-collapse: collapse;
     font-size: 20px;
     text-align: center;
 }
 
 table th {
-    width: 1300px;
+    width: 1500px;
 }
 
 #drawAgainButton {

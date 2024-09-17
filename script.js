@@ -41,6 +41,7 @@ button.addEventListener("click", () => {
             bodyRow.appendChild(bodyRowContent);
             nameList.splice(numSorted, 1);
         }
+        bodyRow.style.border = "1px solid #3446b3";
         tableBody.appendChild(bodyRow);
     }
 
@@ -56,8 +57,11 @@ button.addEventListener("click", () => {
             bodyRow.appendChild(bodyRowContent);
             nameList.splice(numSorted, 1);
         }
+        bodyRow.style.border = "1px solid #3446b3";
         tableBody.appendChild(bodyRow);
     }
+
+    tableBody.style.border = "1px solid #3446b3";
     
     // Populando a tabela com todos os dados
     newTable.appendChild(tableHeader);
