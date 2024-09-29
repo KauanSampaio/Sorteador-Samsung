@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
 
-    <title>Sorteador</title>
+    <title>Sorteio de Nome</title>
 </head>
 <body>
-
     <header>
         <!-- Navbar PC -->
         <nav>
@@ -19,10 +16,10 @@
             </div>
             <ul>
                 <li>
-                    <a href="#">Sorteio de Times</a>
+                    <a href="index.html">Sorteio de Times</a>
                 </li>
                 <li>
-                    <a href="sorteio-nome.html">Sorteio de Pessoas</a>
+                    <a href="#">Sorteio de Pessoas</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -36,27 +33,14 @@
         <div class="menubar">
             <ul>
                 <li>
-                    <a href="#">Sorteio de Times</a>
+                    <a href="index.html">Sorteio de Times</a>
                 </li>
                 <li>
-                    <a href="sorteio-nome.html">Sorteio de Pessoas</a>
+                    <a href="#">Sorteio de Pessoas</a>
                 </li>
             </ul>
         </div>
     </header>
-
-    <section id="mainContent">
-        <form id="sortForm">
-            <h2>Nomes</h2>
-            <textarea name="nameList" id="nameList"></textarea>
-            <h2>Quantidade de Times</h2>
-            <input type="number" name="numTeams" id="numTeams" value="1"/>
-            <button type="button" id="sortButton">Sortear</button>
-        </form>
-
-        <div id="teamsTable"></div>
-        <div id="drawAgain"></div>
-    </section>
 
     <script src="script.js"></script>
     <script src="navbar.js"></script>
