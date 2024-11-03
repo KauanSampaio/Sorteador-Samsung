@@ -1,6 +1,5 @@
-let button = document.querySelector("#sortButton");
-
-button.addEventListener("click", () => {
+let teamSortButton = document.querySelector("#teamSortButton");
+teamSortButton.addEventListener("click", () => {
     // Pegando a lista de nomes e separando linha por linha em um array
     let nameList = document.querySelector("#nameList").value.split("\n");
 
